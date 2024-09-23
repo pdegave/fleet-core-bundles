@@ -7,7 +7,7 @@ helm:
   version: 102.0.3+up3.17.10
 diff:
   comparePatches:
-  - apiVersion: logging.banzaicloud.io/v1beta1
+  - apiVersion: v1
     kind: Logging
     name: rancher-logging
     operations:
